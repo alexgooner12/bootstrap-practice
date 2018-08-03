@@ -10,14 +10,101 @@
 
     <title>Hello, world!</title>
   </head>
-  <style>
-      div {
-          border: 1px solid white;
-      }
-    </style>
-  
   <body>
-    <h1>Hello, world!</h1>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-info navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Training</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+       <div class="container justify-content-center">
+           <h1 class="display-1">Welcome to the jungle</h1>
+           <p class="lead text-right">by Guns 'n' Roses</p>    
+       </div>
+        
+    </div>
+     
+    <div class="container">
+         <!--cards-->
+        <div class="row">
+            <div class="card col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/bootstrap-logo.png" alt="bootstrap-logo-image" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Bootstrap training</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur porro delectus, architecto facilis expedita hic cupiditate necessitatibus? Adipisci eum, sapiente, voluptatum eos perspiciatis dolorum tenetur sed beatae dolore cupiditate!</p>
+                    </div>
+                </div>
+             </div>     
+            <div class="card col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/Twitter-Bootstrap-Logo.jpg" alt="bootstrap-logo-image" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Bootstrap training</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur porro delectus, architecto facilis expedita hic cupiditate necessitatibus? Adipisci eum, sapiente, voluptatum eos perspiciatis dolorum tenetur sed beatae dolore cupiditate!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/Twitter-Bootstrap-Logo.jpg" alt="bootstrap-logo-image" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Bootstrap training</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur porro delectus, architecto facilis expedita hic cupiditate necessitatibus? Adipisci eum, sapiente, voluptatum eos perspiciatis dolorum tenetur sed beatae dolore cupiditate!</p>
+                    </div>
+                </div>
+             </div>     
+        <div class="card col-md-6 col-lg-3">
+            <div class="card">
+                <img src="img/bootstrap-logo.png" alt="bootstrap-logo-image" class="card-img-top img-fluid">
+                <div class="card-block">
+                    <h3 class="card-title">Bootstrap training</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur porro delectus, architecto facilis expedita hic cupiditate necessitatibus? Adipisci eum, sapiente, voluptatum eos perspiciatis dolorum tenetur sed beatae dolore cupiditate!</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
+    <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a href="#one" class="nav-link active" data-toggle="tab">One</a>
+        <a href="#two" class="nav-link" data-toggle="tab">Two</a>
+        <a href="#three" class="nav-link" data-toggle="tab">Three</a>
+        <a href="#four" class="nav-link" data-toggle="tab">Four</a>
+    </nav>
+    <div class="tab-content py-5">
+        <div class="tab-pane active" id="one">
+            <h3>One</h3>
+            <p>Lorem ipsum dolor sit amet, <span data-toggle="tooltip" title="this is a tooltip" class="text-info" data-placement="bottom">consectetur adipisicing elit</span>. Nesciunt laudantium quibusdam unde molestiae possimus expedita veritatis aliquam quo nisi obcaecati molestias, eum dolor? Assumenda tempora vel sequi nisi quas aut!</p>
+        </div>
+        <div class="tab-pane" id="two">
+            <h3>Two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium quibusdam unde molestiae possimus expedita veritatis aliquam quo nisi obcaecati molestias, eum dolor? Assumenda tempora vel sequi nisi quas aut!</p>
+        </div>
+        <div class="tab-pane" id="three">
+            <h3>Three</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium quibusdam unde molestiae possimus expedita veritatis aliquam quo nisi obcaecati molestias, eum dolor? Assumenda tempora vel sequi nisi quas aut!</p>
+        </div>
+        <div class="tab-pane" id="four">
+            <h3>Four</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium quibusdam unde molestiae possimus expedita veritatis aliquam quo nisi obcaecati molestias, eum dolor? Assumenda tempora vel sequi nisi quas aut!</p>
+        </div>
+     </div>   
+      
+   </div>
+    
+       <h1>Hello, world!</h1>
     
     <ul>
         <li>Soup</li>
@@ -76,11 +163,17 @@
             <!-- to center them or align left or right -->
         </div>
     </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+          $('[data-toggle="tooltip"]').tooltip();    
+      });
+      </script>
   </body>
 </html>
